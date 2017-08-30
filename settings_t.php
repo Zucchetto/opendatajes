@@ -4,7 +4,7 @@
 //Telegram
 define('APIT','AIzaSyDe4R1jRRqId46Zl54IPWdCHpF0xotdRIU'); // inserire API key google per short link
 define('TELEGRAM_BOT','418886141:AAGTCh6ZLt7KlCXVX9aELD0dDWp_S1aHcP0'); // inserire il token
-define('BOT_WEBHOOK', 'https://hook.io/zucchetto/opendata');
+define('BOT_WEBHOOK', 'https://github.com/Zucchetto/opendatajes/blob/master/start.php');
 define('LOG_FILE', 'telegram.log');
 
 $db_path=dirname(__FILE__).'/lecceod.sqlite';
