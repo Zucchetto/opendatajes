@@ -4,11 +4,11 @@
 //Telegram
 define('APIT','AIzaSyDe4R1jRRqId46Zl54IPWdCHpF0xotdRIU'); // inserire API key google per short link
 define('TELEGRAM_BOT','418886141:AAGTCh6ZLt7KlCXVX9aELD0dDWp_S1aHcP0'); // inserire il token
-define('BOT_WEBHOOK', '');
+define('BOT_WEBHOOK', 'https://hook.io/zucchetto/opendata');
 define('LOG_FILE', 'telegram.log');
 
-$db_path=dirname(__FILE__).'/./lecceod.sqlite';
-$csv_path=dirname(__FILE__).'/./monumenti.csv';
+$db_path=dirname(__FILE__).'/lecceod.sqlite';
+$csv_path=dirname(__FILE__).'/monumenti.csv';
 define ('DB_NAME', "sqlite:". $db_path);
 define('DB_TABLE',"user");
 define('DB_TABLE_GEO',"segnalazioni");
