@@ -7,8 +7,8 @@ define('TELEGRAM_BOT','418886141:AAGTCh6ZLt7KlCXVX9aELD0dDWp_S1aHcP0'); // inser
 define('BOT_WEBHOOK', '');
 define('LOG_FILE', 'telegram.log');
 
-$db_path=dirname(__FILE__).'/./lecceod.sqlite';
-$csv_path=dirname(__FILE__).'/./map_data.csv';
+$db_path=dirname(__FILE__).'/lecceod.sqlite';
+$csv_path=dirname(__FILE__).'/monumenti.csv';
 define ('DB_NAME', "sqlite:". $db_path);
 define('DB_TABLE',"user");
 define('DB_TABLE_GEO',"segnalazioni");
